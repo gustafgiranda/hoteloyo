@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: url('   ') no-repeat center center;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #f70000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    opacity: 70%;
+}
+
+.room-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.room {
+    text-align: center;
+    margin: 20px;
+    /* background-color: red; */
+    /* box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1); */
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    /* max-width: 300px; */
+    /* border: 2px solid #333; */
+}
+
+
+.room img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    width: 70%;
+    background-size: 50%;
+}
+
+.items:hover {
+    transition-duration: 0.2s;
+    transform: scale(1.15   );
+}
+.info {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.booking{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.booking a {
+border: 2px solid #f70000; /* Warna sesuai keinginan Anda */
+padding: 10px 20px;
+text-decoration: none;
+}
+
+button {
+    background-color: #f70000;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d60000;
+}
+
+.owl-carousel{
+    display: flex;
+    gap: 10px;
+}
+
+.owl-carousel .items{
+    background: white;
+    border: 2px solid black;
+}
+
+.owl-carousel .items img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}

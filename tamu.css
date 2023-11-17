@@ -1,0 +1,272 @@
+    @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    html{
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background: url('https://images.oyoroomscdn.com/uploads/hotel_image/49768/207db809119d52a1.jpg') no-repeat center center fixed; */
+            /* background-size: cover; */
+            background-color: #ffffff;
+            
+        }
+
+        .home{
+            width: 100%;
+            height: 100vh;
+            background: url('https://images.oyoroomscdn.com/uploads/hotel_image/49768/207db809119d52a1.jpg') no-repeat center center;
+            background-size: cover;
+            transition: background-image 1s ease-in-out;
+            
+        }
+
+        header {
+            background-color: #ffffff;
+            opacity: 100%;
+            color: #000000; 
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            
+        }
+
+        nav a:hover {
+            background-color: #ff0000;
+            color: yellow;
+            border-bottom: 2px solid yellow; /* Add this line for the yellow underline */
+
+        }
+
+        nav {
+            background-color:  rgba(255,0,0,0.5) ;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 65px;
+            width: 100%;
+        }
+
+        nav a:hover {
+            transition: .1s ease-in-out;
+            color: yellow;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #ff0000b2;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            opacity: 100%;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        #scroll-content {
+            height: 800px; /* Sesuaikan tinggi sesuai kebutuhan */
+            overflow-y: scroll;
+        }
+        .link nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .link img{
+            width: 30px;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%; 
+            padding: 0 20px;
+        }
+        .facility p {
+            font-size: 14px;
+            color: #666;
+        }
+        .facilities h2 {
+            font-family: 'Edu TAS Beginner', cursive;
+            font-size: 40px;
+            color: #333;    
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            width: 100%; /* Agar judul tetap di tengah */
+        }       
+        .facilities {
+            display: flex;
+            justify-content: space-around;
+            align-  : flex-start;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: #fff;
+        }
+        
+        .facility {
+            width: 250px;
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .facility img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .facility h3 {
+            color: #333;
+        }
+        
+        .facility p {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        /* Optional: Hover effect */
+        .facility:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        /* Tambahkan ini di dalam file CSS Anda (misalnya, styles.css) */
+
+    /* Tambahkan ini di dalam file CSS Anda (misalnya, styles.css) */
+
+    .oyo-experience {
+        background-color: #f4f4f4;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .experience-container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .oyo-experience h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+        font-family: 'Edu TAS Beginner', cursive;
+    }
+
+    .oyo-experience p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #666;
+    }
+
+    .box-experience{
+        width: 200%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+
+    .experience-item {
+        width: 450px;
+        flex: 0 0 calc(33.333% - 20px); /* Lebar 33.333% dengan margin 20px di antara */
+        margin-top: 20px;
+    }
+
+    .experience-item img {
+        width: 100%;
+        border-radius: 0px;
+        margin-bottom: 10px;
+    }
+
+    .experience-item h3 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    
+        
+        .history {
+            background-color: #f4f4f4;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .history .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .history h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .history p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .history .container {
+                padding: 0 20px;
+            }
+
+            .history h1 {
+                font-size: 28px;
+            }
+
+            .history p {
+                font-size: 16px;
+            }
+        }
+       footer {
+
+        display: flex   ;
+    }
+
+    .social-media {
+        display: flex;
+    }
+
+    .social-media img {
+        width: 50px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+        height: auto; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+        margin: -5px;
+    }
+
+    .oyofooter {
+        float: left; /* memindahkan oyofooter ke kiri */
+    }
+
+    .oyofooter img {
+        width: 300px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+        height: auto; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+        max-width: 100%; /* Memastikan gambar tidak melebihi lebar elemen parent */
+        max-height: 100%; /* Memastikan gambar tidak melebihi tinggi elemen parent */
+    }
+    .sponsor img{
+       width: 300px;
+       height: auto;
+       max-width: 100%;
+       max-height: 100%;
+    }
